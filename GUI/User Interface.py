@@ -13,7 +13,7 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 
-db = pymysql.connect(host="127.0.0.1", user="ashkan", passwd="Ashkan003", database="db_final_proj", port=3305)
+db = pymysql.connect(host="127.0.0.1", user="ashkan", passwd="password", database="db_final_proj", port=3305)
 
 
 class Window(QMainWindow):
